@@ -2,5 +2,5 @@
 
 
 cat /dev/input/mice | read -s -n 1 it
-date >> /tmp/happy-hacked
+halt
 
