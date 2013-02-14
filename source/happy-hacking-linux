@@ -2,5 +2,10 @@
 
 
 cat /dev/input/mice | read -s -n 1 it
-halt
+if which systemctl > /dev/null
+then
+  systemctl poweroff
+else
+  halt
+fi
 
