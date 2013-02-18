@@ -3,7 +3,7 @@ Description=Happy Hacking Linux
 # After=systemd-user-sessions.service
 
 [Service]
-ExecStart=/usr/bin/happy-hacking-linux
+ExecStart=/home/anekos/project/happy-hacking-linux/source/happy-hacking-linux
 
 [Install]
 WantedBy=multi-user.target
