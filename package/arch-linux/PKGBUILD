@@ -1,7 +1,7 @@
 # Maintainer: anekos <anekos@snca.net>
 pkgname=happy-hacking-linux
 pkgver=1.0.0
-pkgrel=4
+pkgrel=5
 pkgdesc="Happy Hacking Linux without mice. ATTENTION!! Your sensitve mice knock down your computer."
 url="http://snca.net/"
 arch=('i686' 'x86_64')
